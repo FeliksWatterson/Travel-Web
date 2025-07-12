@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lisu+Bosa:wght@600;800&family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:wght@600;800&display=swap");
 
 :root {
   --primary-color: #0a0d14;
@@ -7,7 +7,7 @@
   --extra-light: rgba(255, 255, 255, 0.5);
   --white: #ffffff;
   --max-width: 1200px;
-  --header-font: "Lisu Bosa", serif;
+  --header-font: "Playfair Display", serif;
 }
 
 * {
@@ -61,7 +61,8 @@ body {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  /* Thay đổi font cho toàn bộ trang web tại đây */
+  font-family: "Be Vietnam Pro", sans-serif;
   color: var(--white);
   background-color: var(--primary-color);
 }
@@ -384,7 +385,7 @@ nav {
 .gallery__content {
   position: absolute;
   left: 50%;
-  bottom: -8rem;
+  bottom: -12rem;
   transform: translateX(-50%);
   width: 100%;
   padding: 2rem 1rem;
