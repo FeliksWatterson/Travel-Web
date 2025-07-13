@@ -70,6 +70,7 @@ body {
 header {
   background-image: linear-gradient(to top, var(--primary-color), transparent),
     url("assets/header.jpg");
+  height: 100vh;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
